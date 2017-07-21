@@ -18,7 +18,7 @@ public class testsmokz {
 	 public void test() throws MalformedURLException{
 		
 		 Cm=new CommonMethods(driver);
-		 driver =Cm.openBrowser("Chrome");
+		 driver =Cm.openBrowser("Firefox");
 		 Cm.navigateURL("http://10.1.10.238:8081/CounterWebApp/");
 		 Cm.verifyText("Maven Spring MVC Web Project Example");
 		 Cm.VerifyTitle("Maven Spring MVC Web Project Example");
