@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 37.533 sec <<< FAILURE! - in TestSuite
+test(smokepack.testsmokz)  Time elapsed: 36.856 sec  <<< FAILURE!
+java.lang.AssertionError: On page . Expected Text "Maven Spring MVC Web Project Example" not found
+	at smokepack.testsmokz.test(testsmokz.java:22)
+
